@@ -1,0 +1,444 @@
+.home {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.carrusel {
+    width: 100%;
+    height: 50%;
+    background: rgba(208,208,208,1);
+    opacity: 1;
+    position: absolute;
+    top: 20%;
+    transform: translate(0, -20%);
+}
+
+.somosutad {
+    width: 100%;
+    top: 5%;
+    left: 1%;
+    transform: translate(-1%, -5%);
+    color: rgba(0,101,239,1);
+    position: relative;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 128px;
+    opacity: 1;
+    text-align: left;
+}
+
+.somostalento {
+    width: 100%;
+    color: rgba(0,101,239,1);
+    position: absolute;
+    bottom: 30%;
+    left: 40%;
+    transform: translate(0%, -30%);
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 128px;
+    opacity: 1;
+    text-align: left;
+}
+
+.carruselimagenes {
+    color: rgba(222,222,222,1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 40px;
+    opacity: 1;
+    text-align: left;
+}
+
+.flechaIzq {
+    width: 155px;
+    height: 58px;
+    background: url("/static/images/FlechaIzq.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0, -50%);
+    overflow: hidden;
+}
+.flechaDer {
+    width: 155px;
+    height: 58px;
+    background: url("/static/images/FlechaDer.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(0, -50%);
+    overflow: hidden;
+}
+
+.footer {
+    width: 100%;
+    height: 5%;
+    background: rgba(20,25,44,1);
+    opacity: 1;
+    position: absolute;
+    bottom: 0%;
+    overflow: hidden;
+}
+
+.logoFooter {
+    width: 156px;
+    height: 32px;
+    background: url("/static/images/logoUtad.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 50%;
+    left: 1%;
+    transform: translate(-1%, -50%);
+    overflow: hidden;
+}
+
+.logoEspanaFooter {
+    width: 252px;
+    height: 32px;
+    background: url("/static/images/logoEspana.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.privacyPolicy {
+    width: 237px;
+    color: rgba(222,222,222,1);
+    position: absolute;
+    top: 50%;
+    left: 99%;
+    transform: translate(-99%, -50%);
+    font-family: Montserrat;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.empresasParticipantes {
+    width: 50%;
+    height: 26%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 71%;
+    left: 49px;
+    overflow: hidden;
+}
+
+.textoEmpresas {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    margin-top: 0.5%;
+    transform: translate(0%, 0%);
+    font-family: Montserrat;
+    font-weight: Regular;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15000000596046448);
+}
+
+
+.empresasParticipanteslogos {
+    width: 50%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    transform: translate(0%, -80%);
+    overflow: hidden;
+}
+
+.flechaIzqEmpresas {
+    width: 83px;
+    height: 31px;
+    background: url("/static/images/FlechaIzq.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    overflow: hidden;
+}
+
+.flechaDerEmpresas {
+    width: 83px;
+    height: 31px;
+    background: url("/static/images/FlechaDer.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    overflow: hidden;
+}
+
+.caja1 {
+    width: 100px;
+    height: 100px;
+    background: rgba(196,196,196,1);
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(0%, -50%);
+    overflow: hidden;
+}
+.caja2 {
+    width: 100px;
+    height: 100px;
+    background: rgba(196,196,196,1);
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(0, -50%);
+    overflow: hidden;
+}
+.caja3 {
+    width: 100px;
+    height: 100px;
+    background: rgba(196,196,196,1);
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    transform: translate(0, -50%);
+    overflow: hidden;
+}
+.caja4 {
+    width: 100px;
+    height: 100px;
+    background: rgba(196,196,196,1);
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translate(0, -50%);
+    overflow: 
+    hidden;
+}
+
+.header {
+    width: 100%;
+    height: 48px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 2%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15000000596046448);
+    overflow: hidden;
+}
+
+.logoBarra {
+    width: 101px;
+    height: 32px;
+    background: url("/static/images/logoUtadBarraArriba.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    overflow: hidden;
+}
+
+.name {
+    color: #fff;
+}
+
+.textoInfo {
+    width: 545px;
+    height: 231px;
+    background: url("/static/images/v19_40.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 71.5%;
+    left: 66%;
+    overflow: hidden;
+}
+
+.textInfoTitulo{
+    width: 100%;
+    height: 21%;
+    text-align: left;
+    margin-top: -2.5%;
+    transform: translate(0%, 0%);
+    font-family: Montserrat;
+    font-weight: Regular;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15000000596046448);
+}
+
+.textoInfoParrafo {
+    width: 523px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 71px;
+    left: 0px;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.masInfo {
+    height: 17%;
+    width: 35%;
+    position:relative;
+    top: 50%;
+    left: 0%;
+}
+
+.quieroInscribirme{
+    height: 17%;
+    width: 38%;
+    position: relative;
+    top: 33%;
+    left: 62%;
+}
+
+.boton{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    background: #0065EF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+}
+
+.textoBoton{
+    position: static;
+    left: 16px;
+    right: 16px;
+    top: 8px;
+    bottom: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #DEDEDE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.cambiarIdioma{
+    width: 30px;
+    height: 30px;
+    background: url("/static/images/logoEspanita.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1%;
+    left: 95%;
+    overflow: hidden;
+}
+
+.logIn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    position: absolute;
+    width: 226px;
+    height: 40px;
+    left: 83%;
+    top: -25%;
+    background: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #0F0F0F;
+}
+
+.barritaLogin{
+    left: 87.4%;
+    top: 4%;
+    position:absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #0F0F0F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.register{
+    position: absolute;
+    left: 88%;
+    top: 9%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #0F0F0F;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 10px;
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS Links -->
+    <link href="{{ url_for('static', filename= 'css/home.css')}}" rel="stylesheet" />
+    <link href="{{ url_for('static', filename= 'css/logIn.css')}}" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>{% block title %} {% endblock %}</title>
+  </head>
+  <body>
+    <div class="home">
+        <div class="header">
+            <div class="logoBarra"></div>
+            <div class="logIn"><a href="{{url_for('logIn')}}">LOG IN</a></div>
+            <div class="barritaLogin">|</div>
+            <div class="register"><a href="{{url_for('registrar')}}">REGISTER</a></div>
+            <div class="cambiarIdioma"></div>
+        </div>
+
+        <div>
+            {% block content %} {% endblock %}
+        </div>
+
+        <div class="footer">
+            <div class="logoFooter"></div>
+            <div class="logoEspanaFooter"></div>
+            <span class="privacyPolicy">Privacy policy | ⓒ U-tad 2021</span>
+        </div>
+    </div>
+  </body>
+</html>

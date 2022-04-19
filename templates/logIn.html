@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	Log In
+{% endblock %}
+
+{% block content %}
+    <div class="cajaLogIn">
+        <h1 class="titulo">Log in</h1>
+        <form class="modal-content">
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" required>
+
+            <label for="constrseña">Contraseña</label>
+            <input type="text" name="constrseña" required>
+
+            <label>¿Recordar Sesión?<input type="checkbox" checked="checked" name="remember"></label>
+            <label>¿No tienes una cuenta? Haz click <a href="{{url_for('registrar')}}">aquí</a></label>
+            <button type="submit">Log In</button>
+            
+        </form>
+    </div>
+{% endblock %}
