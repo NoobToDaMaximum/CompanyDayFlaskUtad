@@ -4,38 +4,11 @@
 	Inicio
 {% endblock %}
 
+{% block styles %}
+{{super()}}
+<link href="{{ url_for('static', filename= 'css/carousel.css')}}" rel="stylesheet" />
+{% endblock %}
+
 {% block content %}
-	<div class="carrusel">
-		<span class="carruselimagenes"></span>
-	</div>
-
-	<span class="somosutad">SOMOS U-TAD</span>
-	<span class="somostalento">SOMOS TALENTO</span>
-
-	<div class="empresasParticipantes">
-		<div class="textoEmpresas">
-			<h1>Empresas Participantes</h1>
-		</div>
-		<div class="empresasParticipantesLogos">
-			<div class="caja1"></div>
-			<div class="caja2"></div>
-			<div class="caja3"></div>
-			<div class="caja4"></div>
-		</div>
-	</div>
-
-	<div class="textoInfo">
-		<div class="textInfoTitulo"><h1><b>Company Day</b></h1></div>
-		<span class="textoInfoParrafo"><b>Un evento organizado por U-tad con ánimo de conectar empresas 
-			top con nuestros mejores talentos.</b> Especializado en nuestras areas principales 
-			de enseñanza: Animación 3D y 2D & VFX, Diseño Digital, Ingeniería de Software,
-			Matemáticas y Realidad Extendida, Videojuegos y Diseño Interactivo.
-		</span>
-		<div class="masInfo">
-			<button class="boton" onclick="alert(1)"><h1 class="textoBoton">Mas Información</h1></button>
-		</div>
-		<div class="quieroInscribirme">
-			<button class="boton" onclick="alert(1)"><h1 class="textoBoton">Quiero Inscribirme</h1></button>
-		</div>
-	</div>
+	<h1>Soy el Home</h1>
 {% endblock %}
