@@ -1,21 +1,35 @@
 {% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
 
 {% block title %}
-	Log In
+	Register
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+<link href="{{url_for('static', filename='css/signin.css')}}" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
-    <div class="cajaLogIn">
-        <h1 class="titulo">Registrar</h1>
-        <form class="modal-content">
-            <label for="username">Usuario</label>
-            <input type="text" name="username" required>
-
-            <label for="password">Contraseña</label>
-            <input type="text" name="password" required>
-            <label>¿Ya tienes una cuenta? Haz click <a href="{{url_for('logIn')}}">aquí</a></label>
-            <button type="submit">Registrar</button>
-            
-        </form>
-    </div>
+<main class="form-signin">
+    <form method="POST" action="/registrar.html">
+        <img class="mb-4" src="{{url_for('static', filename='images/LogoSoloUtad.png')}}" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 fw-normal">Inicia Sesión</h1>
+        
+        <div class="form-floating">
+            {{ form.hidden_tag() }}
+            {{ wtf.form_field(form.username) }}
+            {{ wtf.form_field(form.email) }}
+            {{ wtf.form_field(form.password) }}
+         
+        </div>
+        <div class="form-floating">
+            <label>
+              ¿No tienes Cuenta? Haz click <a href="{{url_for('logIn')}}">aqui</a>
+            </label>
+          </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
+    </form>
+</main>
 {% endblock %}
