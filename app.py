@@ -79,7 +79,7 @@ def profile():
 
 @app.route('/logOut')
 @login_required
-def logOut():
+def logout():
     logout_user()
     return redirect(url_for('home'))
 
