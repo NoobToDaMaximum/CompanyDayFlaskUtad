@@ -41,7 +41,7 @@ def home():
     return render_template('index.html')
 
 @app.route('/logIn.html', methods=['GET', 'POST'])
-def logIn():
+def login():
     form = LoginForm()
 
     if form.validate_on_submit():
