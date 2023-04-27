@@ -27,7 +27,7 @@
     transform: translate(-1%, -5%);
     color: rgba(0,101,239,1);
     position: relative;
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
     font-weight: Bold;
     font-size: 128px;
     opacity: 1;
@@ -41,7 +41,7 @@
     bottom: 30%;
     left: 40%;
     transform: translate(0%, -30%);
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
     font-weight: Bold;
     font-size: 128px;
     opacity: 1;
@@ -54,7 +54,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
     font-weight: Bold;
     font-size: 40px;
     opacity: 1;
@@ -137,7 +137,7 @@
     top: 50%;
     left: 99%;
     transform: translate(-99%, -50%);
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
     font-weight: Regular;
     font-size: 16px;
     opacity: 1;
@@ -163,7 +163,7 @@
     text-align: center;
     margin-top: 0.5%;
     transform: translate(0%, 0%);
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
     font-weight: Regular;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15000000596046448);
 }
@@ -308,7 +308,7 @@
     text-align: left;
     margin-top: -2.5%;
     transform: translate(0%, 0%);
-    font-family: Montserrat, sans-serif;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
     font-weight: Regular;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15000000596046448);
 }
@@ -360,7 +360,7 @@
     right: 16px;
     top: 8px;
     bottom: 12px;
-    font-family: 'Montserrat, sans-serif';
+    font-family: 'Helvetica, Arial, Verdana, sans-serif';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -397,7 +397,7 @@
     left: 83%;
     top: -25%;
     background: #FFFFFF;
-    font-family: 'Montserrat, sans-serif';
+    font-family: 'Helvetica, Arial, Verdana, sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -411,7 +411,7 @@
     left: 87.4%;
     top: 4%;
     position:absolute;
-    font-family: 'Montserrat, sans-serif';
+    font-family: 'Helvetica, Arial, Verdana, sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -429,7 +429,7 @@
     position: absolute;
     left: 88%;
     top: 9%;
-    font-family: 'Montserrat, sans-serif';
+    font-family: 'Helvetica, Arial, Verdana, sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
