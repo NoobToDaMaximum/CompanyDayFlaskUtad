@@ -8,6 +8,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 
 app = Flask(__name__)
+csrf = CSRFProtect()
+csrf.init_app(app) # Compliant
 app.config['SECRET_KEY'] = 'Thisissupposedtobesecret'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/fw1/Desktop/Flask/Prueba1Flask/database.db'
 Bootstrap(app)
