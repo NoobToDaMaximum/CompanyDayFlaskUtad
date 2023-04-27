@@ -42,7 +42,7 @@ class RegisterForm(FlaskForm):
 def home():
     return render_template('index.html')
 
-@app.route('/logIn.html', methods=['GET', 'POST'])
+@app.route('/logIn.html', methods=['GET'])
 def login():
     form = LoginForm()
 
@@ -56,7 +56,7 @@ def login():
 
     return render_template('logIn.html', form=form)
 
-@app.route('/registrar.html', methods=['GET', 'POST'])
+@app.route('/registrar.html', methods=['GET'])
 def registrar():
     form = RegisterForm()
 
