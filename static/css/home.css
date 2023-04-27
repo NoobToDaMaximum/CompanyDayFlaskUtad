@@ -27,7 +27,7 @@
     transform: translate(-1%, -5%);
     color: rgba(0,101,239,1);
     position: relative;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-weight: Bold;
     font-size: 128px;
     opacity: 1;
