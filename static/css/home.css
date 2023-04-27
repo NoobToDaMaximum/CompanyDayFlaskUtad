@@ -360,7 +360,7 @@
     right: 16px;
     top: 8px;
     bottom: 12px;
-    font-family: 'Helvetica, Arial, Verdana, sans-serif';
+    font-family: Helvetica, Arial, Verdana, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -397,7 +397,7 @@
     left: 83%;
     top: -25%;
     background: #FFFFFF;
-    font-family: 'Helvetica, Arial, Verdana, sans-serif';
+    font-family: Helvetica, Arial, Verdana, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -411,7 +411,7 @@
     left: 87.4%;
     top: 4%;
     position:absolute;
-    font-family: 'Helvetica, Arial, Verdana, sans-serif';
+    font-family: Helvetica, Arial, Verdana, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -429,7 +429,7 @@
     position: absolute;
     left: 88%;
     top: 9%;
-    font-family: 'Helvetica, Arial, Verdana, sans-serif';
+    font-family: Helvetica, Arial, Verdana, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
