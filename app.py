@@ -51,7 +51,6 @@ def login():
             return redirect(url_for('dashboard'))
 
         return '<h1> Invalid username or passowrd</h1>'
-        #return '<h1>' + form.username.data + ' ' + form.password.data + '</h1>'
 
     return render_template('logIn.html', form=form)
 
